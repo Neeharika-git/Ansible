@@ -1,0 +1,14 @@
+- firstname: Neeharika
+  lastname: bodhu
+  email: neehaikanew@gmail.com
+  addresses:
+  - type: permanant
+    Doorno: 123
+    Street: Gandinagar
+  - type: Current
+    Doorno: 1122333
+    Street: Gandinagar
+
+
+
+    
