@@ -1,12 +1,12 @@
 - name: helloworld
-  hosts: local
-  connection: local
+  hosts: node1
+  
   tasks:
   - name: print helloworld
     ansible.builtin.debug:
       msg: "hello world"
   - name: create empty file
     ansible.builtin.file:
-      path: /etc/test.txt
-      state: file
+      path: /etc/test
+      state: directory
       mode: '0755'
