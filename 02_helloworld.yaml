@@ -7,5 +7,5 @@
       msg: "hello world"
   - name: create empty file
     ansible.builtin.file:
-    path: /etc/foo.txt
-    state: absent
+      path: /etc/foo.txt
+      state: present
