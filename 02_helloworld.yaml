@@ -5,3 +5,7 @@
   - name: print helloworld
     ansible.builtin.debug:
       msg: "hello world"
+  - name: create empty file
+    ansible.builtin.file:
+    path: /etc/foo.txt
+    state: absent
