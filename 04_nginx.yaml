@@ -1,4 +1,4 @@
-- name: install nginx
+- name: install nginx and run
   hosts: node1
 
   tasks:
@@ -10,5 +10,5 @@
   - name: start nginx
     ansible.buildin.service:
       name: nginx
-      start: started
-      anabled: yes
+      state: started
+      enabled: yes
