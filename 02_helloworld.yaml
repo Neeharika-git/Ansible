@@ -7,6 +7,6 @@
       msg: "hello world"
   - name: create empty file
     ansible.builtin.file:
-      path: /etc/test
-      state: directory
+      path: /etc/test.txt
+      state: file
       mode: '0755'
