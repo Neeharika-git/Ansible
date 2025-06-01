@@ -7,6 +7,6 @@
       msg: "hello world"
   - name: create empty file
     ansible.builtin.file:
-      path: /home/ec2-user/test
-      state: directory
+      path: /home/ec2-user/test/lasttry.txt
+      state: touch
       mode: '0755'
