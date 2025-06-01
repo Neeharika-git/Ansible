@@ -1,0 +1,15 @@
+- name: filecreate
+  hosts: local
+  connection: local
+  
+  tasks:
+  - name: create empty directory
+    ansible.builtin.file:
+      path: /home/ec2-user/test1/
+      state: directory
+     
+  - name: create empty file
+    ansible.builtin.file:
+      path: /home/ec2-user/test1/lasttry1.txt
+      state: touch
+    
