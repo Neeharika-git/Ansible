@@ -1,5 +1,5 @@
 - name: Run locally on WSL
-  hosts: localhost
+  hosts: venky
   connection: local
   tasks:
     - debug:
