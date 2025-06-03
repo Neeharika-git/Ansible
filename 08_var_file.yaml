@@ -8,12 +8,12 @@
 
   tasks:
   - name: variables from file global
-    ansible.builtin.bebug:
+    ansible.builtin.debug:
       msg: course info {{ course }} {{ trainer }}  {{ duration }}
   
   - name: variable from course.yaml file
     vars_files:
     - course.yaml
-    ansible.builtin.bebug:
+    ansible.builtin.debug:
       msg: course info {{ course }} {{ trainer }}  {{ duration }}
 
