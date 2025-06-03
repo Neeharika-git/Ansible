@@ -1,0 +1,19 @@
+- name: variables from different file
+  hosts: localhost
+  connection: local
+  vars:
+    course: AWS
+    trainer: Sivakumar
+    duration: "4months"
+
+  tasks:
+  - name: variables from file global
+    ansible.builtin.bebug:
+      msg: course info {{ course }} {{ trainer }}  {{ duration }}
+  
+  - name: variable from course.yaml file
+    vars_files:
+    - course.yaml
+    ansible.builtin.bebug:
+      msg: course info {{ course }} {{ trainer }}  {{ duration }}
+
