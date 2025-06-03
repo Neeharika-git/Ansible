@@ -6,8 +6,8 @@
   - name: print course information
     vars:
       COURSE: Ansible
-      Duration: 2weeks
-      TRAINER: siva
+      DURATION: 2weeks
+      TRAINER: me
     ansible.builtin.debug:
     #vars refernce should be surrounded by ""
       msg: "Hello {{ COURSE }}, Course Duration: {{ DURATION }}, Trainer is {{ TRAINER }}"
