@@ -1,5 +1,5 @@
 - name: Run locally on WSL
-  hosts: local
+  hosts: localhost
   connection: local
   tasks:
     - debug:
