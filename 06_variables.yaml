@@ -1,8 +1,5 @@
 - name: variables from multi level
-  hosts: ip
-
-
-
+  hosts: venky
 
   tasks:
   - name: printing course info
