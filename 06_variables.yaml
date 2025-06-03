@@ -1,17 +1,13 @@
 - name: variables from multi level
   hosts: host
-  
-  vars:
-    course: aws
-    trainer: Sivakumar
-    duration: 4 months
-  
+
+
+
   tasks:
-  - name: printing course info
-    ansible.builtin.debug:
-      msg: course info {{ course }} {{ duration }} {{ trainer }}
+    - name: printing course info
+      ansible.builtin.debug:
+        msg: course info {{ course }} {{ duration }} {{ trainer }}
 
-  - name: printing course info again
-    ansible.builtin.debug:
-      msg: course info {{ course }} {{ duration }} {{ trainer }}
-
+    - name: printing course info again
+      ansible.builtin.debug:
+        msg: course info {{ course }} {{ duration }} {{ trainer }}
