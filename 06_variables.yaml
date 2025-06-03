@@ -1,6 +1,6 @@
 - name: variables from multi level
-  hosts: local
-  connection: local
+  hosts: host
+  
 
 
 
