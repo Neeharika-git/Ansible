@@ -2,7 +2,7 @@
   hosts: host
   
   vars:
-    course: Devops
+    course: aws
     trainer: Sivakumar
     duration: 4 months
   
