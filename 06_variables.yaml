@@ -4,10 +4,10 @@
 
 
   tasks:
-    - name: printing course info
-      ansible.builtin.debug:
-        msg: course info {{ course }} {{ duration }} {{ trainer }}
+  - name: printing course info
+    ansible.builtin.debug:
+      msg: course info {{ course }} {{ duration }} {{ trainer }}
 
-    - name: printing course info again
-      ansible.builtin.debug:
-        msg: course info {{ course }} {{ duration }} {{ trainer }}
+  - name: printing course info again
+    ansible.builtin.debug:
+      msg: course info {{ course }} {{ duration }} {{ trainer }}
