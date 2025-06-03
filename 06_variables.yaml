@@ -1,6 +1,7 @@
 - name: variables from multi level
   hosts: venky
-
+  connection: local
+  
   tasks:
   - name: printing course info
     ansible.builtin.debug:
