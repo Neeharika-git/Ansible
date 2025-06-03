@@ -1,5 +1,5 @@
 - name: variables from multi level
-  hosts: hosts
+  hosts: host
 
   vars:
     course: Devops
