@@ -1,5 +1,6 @@
 - name: multiple palybooks
   hosts: local
+  connection: local
 
   tasks:
   - name: Helo from task1 play1
