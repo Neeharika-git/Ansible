@@ -8,6 +8,10 @@
 
   tasks:
   - name: variables from file global
+    vars:
+      course: AWS
+      trainer: Sivakumar
+      duration: "1months"
     ansible.builtin.debug:
       msg: course info {{ course }} {{ trainer }}  {{ duration }}
 
