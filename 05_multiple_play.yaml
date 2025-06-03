@@ -1,11 +1,10 @@
 - name: multiple palybooks
-  hosts: host
+  hosts: local
 
 
   tasks:
 
   - name: Helo from task1 play1
-    hosts: venky
     ansible.builtin.debug:
       msg: "Hello from task 1 play1"
 
