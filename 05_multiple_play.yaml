@@ -1,6 +1,6 @@
 - name: multiple palybooks
-  hosts: local
-  connection: local
+  hosts: venky
+
 
   tasks:
   - name: Helo from task1 play1
