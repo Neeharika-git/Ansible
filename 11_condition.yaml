@@ -1,9 +1,11 @@
 - name: conditions check
   hosts: local
 
-  vars:
-    number: 23
-
+  vars_files:
+  - name: number
+    prompt: Enter a number
+    private: true
+    
   tasks:
   - name: check the number is > 100
     ansible.builtin.debug:
