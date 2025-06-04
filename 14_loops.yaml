@@ -4,7 +4,7 @@
   tasks:
   - name: print name from loops
     ansible.builtin.debug:
-      msg: "all courses info {{ items }}"
+      msg: "all courses info {{ item }}"
 
     loop:
     - AWS
