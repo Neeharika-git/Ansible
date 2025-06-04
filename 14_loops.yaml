@@ -6,8 +6,7 @@
     ansible.builtin.debug:
       msg: "all courses info {{ items }}"
 
-  loop:
+  loops:
     AWS
     Devops
     Ansible
-    
