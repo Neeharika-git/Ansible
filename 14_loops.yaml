@@ -1,0 +1,13 @@
+- name: loops in ansible
+  hosts: local
+
+  tasks:
+  - name: print name from loops
+    ansible.builtin.debug:
+      msg: "all courses info {{ items }}"
+
+  loop:
+    AWS
+    Devops
+    Ansible
+    
