@@ -1,5 +1,6 @@
 - name: install nginx in different OS
   hosts: local
+  become: yes
 
   tasks:
   - name: install nginx in Redhat
