@@ -7,6 +7,6 @@
       msg: "all courses info {{ items }}"
 
   loops:
-    AWS
-    Devops
-    Ansible
+  - AWS
+  - Devops
+  - Ansible
